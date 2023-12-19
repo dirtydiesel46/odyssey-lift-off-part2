@@ -1,6 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.typeDefs = void 0;
 const gql = require("graphql-tag");
-
-export const typeDefs = gql`
+exports.typeDefs = gql `
   type Query {
     "Query to get tracks array for the homepage grid"
     tracksForHome: [Track!]!
